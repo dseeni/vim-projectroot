@@ -5,7 +5,7 @@ let autoloaded_projectroot = 1
 
 " Options {{{1
 if !exists('g:rootmarkers')
-  let g:rootmarkers = ['.projectroot', '.git', '.hg', '.svn', '.bzr', '_darcs', 'build.xml']
+  let g:rootmarkers = ['.root', '.git', '.hg', '.svn', '.bzr', '_darcs', 'build.xml']
 endif
 
 " projectroot#get([file]): get the project root (if any) {{{1
